@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+}
+#one{
+    color: rgb(255, 4, 54);
+}
+#two{
+    color: rgb(13, 11, 172);
+}
+#three{
+    color: rgb(18, 207, 150);
+}
+div{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*{
+    background-color: black;
+}
