@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css"
+</head>
+<body>
+    <center>
+        <main>
+            <header>
+            <h1 style="color: rgb(109, 19, 19);">
+                This is my form
+            </h1>
+        </header>
+        <section>
+           <a href=" https://docs.google.com/forms/d/e/1FAIpQLSc3Ge08EtNZN1tOzYzpWu0aqnL_BuqrgV-t_QHXAffeGGc0aA/viewform?usp=header" style="color: darkred;">Google Form link</a>
+        </section>
+        <br>
+        <section>
+            <form action="/action.php">
+                <label>
+                    Name:
+                    <input type="text" placeholder="Enter Name">
+                </label>
+                <br>
+                <label>
+                    password:
+                    <input type="password" placeholder="Enter Password">
+                </label>
+                <br>
+                <label for="101">
+                    <input type="radio" value="Btech" name="course" id="101">B.Tech
+                </label>
+                <br>
+                <label for="102">
+                    <input type="radio" value="Mtech" name="course" id="102">M.Tech
+                </label>
+                <br>
+                <label for="103">
+                    <input type="radio" value="MBA" name="course" id="103">M.B.A
+                </label>
+                <br>
+                <label for="104">
+                    <input type="radio" value="BCA" name="course" id="104">B.C.A
+                </label>
+                <br>
+                <h3>Select programming options</h3>
+                <label for="201">
+                    <input type="checkbox" value="C" name="programming" id="201">C
+                </label>
+                <br>
+                <label for="202">
+                    <input type="checkbox" value="C++" name="programming" id="202">C++
+                </label>
+                <br>
+                <label for="203">
+                    <input type="checkbox" value="Python" name="programming" id="203">Python
+                </label>
+                <br>
+                <select name="city">
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Lucknow">Lucknow</option>
+                </select>
+                <br>
+                <textarea name="Message" placeholder="Enter your message" rows="10" cols="40"></textarea>
+                <br><br>
+                <input type="submit" value="submit">
+            </form>
+        </section>
+        </main>
+    </center>
+</body>
+</html>
