@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;         
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;                   
+}
+
+
+.left {
+  flex: 1;
+  padding: 20px;
+  background: #f0f0f0;
+}
+.left:hover {
+  flex: 1;
+  padding: 20px;
+  background: #cc2121e7;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+  background: #e0f7fa;
+  text-align: center;
+}
+.right:hover {
+  flex: 1;
+  padding: 20px;
+  background: #035863;
+  text-align: center;
+}
+
+.right img {
+  max-width: 100%;
+  border-radius: 10px;
+}
